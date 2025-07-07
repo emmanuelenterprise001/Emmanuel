@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Emmanuel Enterprise</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #0d0d0d;
+      color: #ffffff;
+    }
+
+    header {
+      background-color: #111;
+      padding: 30px 20px;
+      text-align: center;
+      border-bottom: 2px solid #222;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #00ffcc;
+      letter-spacing: 2px;
+      margin: 0;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(to right, #1a1a1a, #0f0f0f);
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #ffffff;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: #cccccc;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h3 {
+      color: #00ffcc;
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      border-left: 4px solid #00ffcc;
+      padding-left: 10px;
+    }
+
+    .service-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 30px;
+    }
+
+    .service-item {
+      background-color: #1a1a1a;
+      border-radius: 12px;
+      padding: 20px;
+      border: 1px solid #333;
+      transition: transform 0.3s ease;
+    }
+
+    .service-item:hover {
+      transform: translateY(-5px);
+      border-color: #00ffcc;
+    }
+
+    .service-item h4 {
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+
+    .service-item p {
+      color: #999999;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #111;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Emmanuel Enterprise</h1>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to Emmanuel Enterprise</h2>
+    <p>Your trusted destination for digital solutions, growth strategies, and online services with excellence.</p>
+  </section>
+
+  <section class="section">
+    <h3>Our Services</h3>
+    <div class="service-list">
+      <div class="service-item">
+        <h4>Affiliate Marketing</h4>
+        <p>Boost your income by mastering affiliate marketing strategies.</p>
+      </div>
+      <div class="service-item">
+        <h4>Video Editing</h4>
+        <p>High-quality, modern video edits tailored to your needs.</p>
+      </div>
+      <div class="service-item">
+        <h4>Graphics Design</h4>
+        <p>Eye-catching designs for branding, social media, and more.</p>
+      </div>
+      <div class="service-item">
+        <h4>WhatsApp Recovery</h4>
+        <p>Recover lost chats, media, and contacts easily and securely.</p>
+      </div>
+      <div class="service-item">
+        <h4>Crypto Coin Hunting</h4>
+        <p>Discover trending crypto coins and investment strategies.</p>
+      </div>
+      <div class="service-item">
+        <h4>Foreign TikTok Accounts</h4>
+        <p>Access and manage international TikTok accounts effectively.</p>
+      </div>
+      <div class="service-item">
+        <h4>Video Animation</h4>
+        <p>Create animated videos for marketing, storytelling, and more.</p>
+      </div>
+      <div class="service-item">
+        <h4>Social Media Growth</h4>
+        <p>Grow your presence across all platforms with proven methods.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Emmanuel Enterprise. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
